@@ -1,1 +1,427 @@
+Mazen Ashraf Abdalrahman
+2022170615
+---------------------------------------------------------------
+task2
+step1
+pwd
+ls
+cd
+ls
+Unzip
+---------------------------------
+step2
+tar xvf
+-------------------------
+step3
+cd
+ls
+tar -xf
+cd
+ls
+---------------------------
+step4
+find -type f -name "txt"
+cd
+ls
+tar -xf
+cd
+-----------------------------------
+step5
+cat
+ls -li
+-------------------------------------
 
+
+──(mazenx_㉿kali)-[~]
+└─$ pwd
+/home/mazenx_
+                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ ls
+Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ cd Downloads
+                                                                                                                             
+┌──(mazenx_㉿kali)-[~/Downloads]
+└─$ ls
+Session2-1.pdf  Session2.pdf  Updated-Task-02.zip
+                                                                                                                             
+┌──(mazenx_㉿kali)-[~/Downloads]
+└─$ unzip Updated-Task-02.zip
+Archive:  Updated-Task-02.zip
+   creating: Updated-Task-02/
+  inflating: Updated-Task-02/README.txt  
+  inflating: Updated-Task-02/.level-1.tar  
+                                                                                                                             
+                                                                                                                             
+┌──(mazenx_㉿kali)-[~/Downloads]
+└─$ tar xvf Updated-Task-02/.level-1.tar
+.level-1/
+.level-1/README.txt
+.level-1/level-2
+                                                                                                                             
+┌──(mazenx_㉿kali)-[~/Downloads]
+└─$ cd .level-1/
+                                                                                                                             
+┌──(mazenx_㉿kali)-[~/Downloads/.level-1]
+└─$ ls
+level-2  README.txt
+                                                                                                                             
+┌──(mazenx_㉿kali)-[~/Downloads/.level-1]
+└─$ tar -xf level-2                    
+                                                                                                                             
+┌──(mazenx_㉿kali)-[~/Downloads/.level-1]
+└─$ cd level-2  
+                                                                                                                             
+┌──(mazenx_㉿kali)-[~/Downloads/.level-1/level-2]
+└─$ ls
+01VzXCtEZS  7B5l8AC1M8  clktsGviqW  eRz0wDJzB6  HC3gnSrNHL  l6FQ8rGXcW  oATDmz0CAK  rTAkta2aW2  v9kNm4bENt  YH3RBGocdA
+09tuxAUkSZ  7dnQ0OZO7U  CoXO2qfhv8  Etsj7NECd9  HDe7NHRINO  l8fShvYkRA  OBfROJ7kKU  rzz4HDYtQb  VkL2bz9W98  ymuoaRLefH
+0MaqBh51eE  7f6nrbSyXM  cqxENw21F1  eTY7qTsykD  HRHgAeIQKP  lcVizkoO1R  OEQ9RG7Cam  s82TBxnZgd  vm5P2xLF3s  yWegzIJdDb
+1Rc48mLISP  8HuZDGUf7D  cTJdoZGT00  evJEy0ce9D  hsM9mQuMTH  lvEy6vrtZe  OlDXrxU8tn  SkWLO4DmJj  VMVoKBX4Qu  yWY8iLmL2v
+1t7LeNZeIl  8lNsncDmgT  cUJtGyfwcE  f4sJ94QCRL  hynub0MKNl  LXdwN4DGye  OQUNDxbuAf  soPx5vMfvS  vOcM3EYMXw  Yx2PUbl2gA
+2dBiyDY1PQ  a8wKwwWNRJ  cuL74htcTP  F7HxYNlWa1  Ib1jBtgkP4  lxQpP8fJrM  P9w2t9K9Ju  SpGacqvoQe  VUOJouKqL9  ZDe6elrEn5
+2tqNyIRWZk  ABtpOP8TR9  cYLRnO8xIB  feBbPjPHsA  iJfohlDIrt  mIQgRJXCLp  PBQjGeeXZ2  Sv7z35zbDG  VxWCuMyoCO  ZgiaL4uwSD
+3aI6ZRWi7g  AbyVd8kDq7  D240Im7S6f  FKtcWd8ViA  IXzIL2c9IA  mLD2604WjZ  PDsc45eDhU  T4TiKdPbRw  w9ophYtx44  ZhfPkBCn6B
+3HClX3dFMm  aD09T4P1xb  dcWFp0gN0U  fky7p46DOi  jbZwCGWF1u  mMwQyrbtaZ  po63smRLBt  tmDRcrdYa9  waa5BUbYjL  zQ85ieoBzD
+3nhuQzOgpI  afHUHOaYAb  dkbSpLYJE5  fSikeo7Jtz  jGu9MApzJB  Mn1k5s3x2R  pptcUXKeGS  TynxkdcmfZ  wfbzcLn49x  zTpHflQtBt
+40Mg6vDbYN  AKf6S1hWVZ  DQ3kjLgCUV  fTBdzWqgkc  JiMEslX4PO  mTJFxGhibA  pRQVevx1kv  u8APo7fuFv  WU2NIZw5bL  ZwCSnEFDCS
+4bq72IzcAj  AofrZBGKhB  dW436qn2Pa  FUSxQX2TeD  JVucZ5s2sO  n80qgsvhlQ  PVhcqo825N  uCBBCPnmb2  WWgF2QTu1U  zXOU7yVyjx
+4CkUBprXze  aT6OddrPAr  DWahK49MnT  g18DV62wEd  jzjKDCAuJh  n8QxXKvUat  Q6QURkVvYf  uH7zN1UJSF  WxGYCzojb5
+4OAvfgFenY  AVR4cOJJui  dwmlaLoghH  gB9k1O4ZT6  k0KGHDEFmp  n9Gy45gDYd  QIGyaTtmlW  UkoXWlT8ck  WzkBDyZf09
+4Qm9FLdd1E  AXkzOy8ZzP  DYCdqY7wJN  gBT5u0vLT5  KNXMn8sBL8  NABe6RrZS9  QirM8dLKSD  UkXg7Lp9iV  x2OxGPBNwZ
+4TqWZorrCe  b8L3KxPJL3  E0bi5j8X9V  Gf0hDzawoe  KO4TANambB  NB8PtjcBPu  Qv3QTzvZC1  Uo2uLQHfWm  X7by8vw474
+54is18fJ6D  bc83b2Byu2  EC1LKYOR0Z  Gi0sWVVQmE  kPIkdmGR9B  NuvecJk6rH  README.txt  URJcbPH7ig  xiRKbhzAt6
+5CnJF4NcXe  BeSbKu0Ogb  ECIShbzsBE  GqeOr84K6i  kr6RDEYCed  nV9Fht2ABW  rHC2JXoQSc  uUeLfbjNyx  Xnmws6DuHJ
+6jKgIUUWGx  BsdD4ojJkc  EDPOSQuyWk  gUm1Kw3MsJ  kuDj7Ti4Id  O0Jt20BDT8  rjS1PORSqI  UUrQyToe6M  Y2WinDQzOb
+6LythIyWzQ  bvSabnQtuB  EJd4UALueA  GuxvN3cJ7U  kVQzoTdmBO  o1hEPIsnq0  rn4s52kOCO  uYt23HMkvu  y7U81AE7BP
+6QcByCct9B  ciyaIBrj64  emEeo94yqd  H2TS1vp6Xt  L3QwW94Azo  o5zluFzkcg  rnTFX18Jh9  v2LInrvkDO  yc0GFVKDtL
+                                                                                                                             
+┌──(mazenx_㉿kali)-[~/Downloads/.level-1/level-2]
+└─$ find -type f -name "txt"
+                                                                                                                             
+┌──(mazenx_㉿kali)-[~/Downloads/.level-1/level-2]
+└─$ cd ./gBT5u0vLT5
+                                                                                                                             
+┌──(mazenx_㉿kali)-[~/Downloads/.level-1/level-2/gBT5u0vLT5]
+└─$ ls
+level-3
+                                                                                                                             
+┌──(mazenx_㉿kali)-[~/Downloads/.level-1/level-2/gBT5u0vLT5]
+└─$ tar -xf level-3
+                                                                                                                             
+┌──(mazenx_㉿kali)-[~/Downloads/.level-1/level-2/gBT5u0vLT5]
+└─$ cd level-3    
+                                                                                                                             
+┌──(mazenx_㉿kali)-[~/…/.level-1/level-2/gBT5u0vLT5/level-3]
+└─$ cat README.txt
+You're seeking a file with a certain size.
+Find the link to get the size.
+
+                                                                                                                             
+
+                                                                                                                             
+┌──(mazenx_㉿kali)-[~/…/.level-1/level-2/gBT5u0vLT5/level-3]
+└─$ ls -li
+total 804
+1095048 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 00aBxtql7r
+1095222 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 0aba2tPi4R
+1095236 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 0QYBUNJixX
+1095301 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 17pfO4tY4m
+1095012 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 1NBA3mJTQC
+1095055 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 1pnvifRmA6
+1095196 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 22ix6enm8X
+1094995 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 2GsF4Kn1PG
+1095280 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 2IFaRh0Jxc
+1095291 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 30msooUqJf
+1094922 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 3Ig28f7Xa8
+1095225 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 3SSDrwrwmt
+1095190 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 3TpnDd6PaY
+1095290 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 3wTdqmDig6
+1095009 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 3XXNloi4gV
+1095304 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 3YhvETOVcv
+1095250 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 4jFmUBgygR
+1094976 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 4vG2fYLy6B
+1095007 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 53IaK7n1np
+1095298 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 5H5OLdA8qE
+1094987 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 5ME7YKcHsa
+1095216 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 5tAchjHlmE
+1094999 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 5tJnO1Mwzf
+1095294 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 5VoPA03kvi
+1094996 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 6AJpxbHYkm
+1095214 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 6C8RwQ9kGP
+1095273 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 6hnWZbro0I
+1095200 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 6JPHCI1K8M
+1095193 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 6lie6mPCRe
+1094981 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 6mnK6keHIi
+1095035 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 6mpTfHgnlX
+1095245 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 6vigp6VM7d
+1094955 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 6ZJgIXN3P0
+1095238 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 71qxiSKgAY
+1095226 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 74gKRNrKVf
+1094986 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 77RwxhcZTx
+1095037 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 7C4OyiuQc4
+1095279 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 7nMGZvigiL
+1094903 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 7PFGHcmfa2
+1094973 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 7sxFwD2jGw
+1094920 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 82aRYKaCZB
+1095244 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 88exEg2MMo
+1094929 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 8IOqsSAWIo
+1095237 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 8OLXyd5ai0
+1095211 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 8u4f62oAYb
+1094991 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 8X1ovlX6ex
+1094914 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 9CA6eRBprt
+1095028 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 9GqYmpQsAS
+1095302 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 9my7brVWmo
+1094998 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 9NNnGuH7A1
+1094997 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 9QBLcfEf91
+1095011 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 a6HPyy5Mz5
+1095300 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 A8SqBitLRB
+1095027 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 aFjSvqXqWE
+1095306 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 AI8sfDgnhT
+1095231 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 AJtW9NcRLy
+1095191 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 ANRcGwDkvK
+1095309 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 ayHSb1kjNd
+1095281 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 b4BF572o41
+1095263 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 b957oPA24t
+1095034 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 Bb0kZiNxDz
+1094975 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 BbreWoCXSv
+1095018 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 bduLsR7v4K
+1095062 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 bOKXTvk63r
+1095229 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 BrJvEu79eg
+1095049 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 BTf86zJsB3
+1095261 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 byVoAmiOqs
+1095198 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 bze36b6xjZ
+1094970 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 C5KrlOGYlu
+1095192 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 cDfzzIGULi
+1094968 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 cF1AG2dtLr
+1095308 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 cjcKUQDGLl
+1094917 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 cKiyNtE0yD
+1094908 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 ClbTpohwVU
+1094985 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 cStCLsSELl
+1094982 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 ctnOoPIga1
+1094910 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 cWRi45wacA
+1095219 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 cWZv9iI87X
+1095052 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 cX6YaqFDFY
+1095207 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 D5JYr3I592
+1095255 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 dBJSXzmpb1
+1095029 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 Dd9KxIjxSB
+1095066 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 dK320XCmR0
+1095024 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 DKiaUm3WBb
+1094927 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 Doi1I9Z8TE
+1095217 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 dqbKkDKbZl
+1094952 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 dtLZdglPV3
+1095206 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 Dux6sHDdCW
+1095023 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 EHm7bcCxj1
+1095260 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 epBL6naqQR
+1095235 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 ePj0HMi3nh
+1094925 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 Eqk382soFH
+1095043 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 eT21MMr22o
+1095203 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 eT909HWyck
+1094940 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 ETRyNzIpYk
+1094921 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 ev8BCScTMa
+1095187 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 F5Db7l8s9j
+1094984 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 F9OYJjkGiB
+1095064 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 fCLOGDR05y
+1095015 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 Fdvgo1aqTT
+1094954 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 FeBBLsJEYS
+1094969 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 FJsgrBEwbJ
+1094934 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 flbjrqIXMS
+1095286 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 fn95Z2sG3o
+1095014 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 FYrh0rmC4q
+1094945 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 G9UhKYNLgv
+1095068 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 GaMed1WIDN
+1095227 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 gcb0bfLbVM
+1094911 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 gfLQDXjJAW
+1095305 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 Gksn5ca8Jn
+1095311 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 gOWuBZZgn2
+1095234 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 GPaN65ikSl
+1094962 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 gu78Zpnknw
+1095296 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 gu92R3c92I
+1095184 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 gupiPOsJzC
+1095185 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 hb4zKjD5G4
+1094943 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 hBv1LejGKu
+1094988 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 Hf8ovJhWKI
+1094960 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 hGCeu2NgZ5
+1095056 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 HuSBc8QKYi
+1095251 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 HXq7gqQZ5Z
+1094907 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 i4CkeVfT7S
+1095212 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 iCR4qC97HM
+1095044 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 IE4xWwbydi
+1095246 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 IiLRIuK1Fi
+1095013 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 IKeqpTmvmW
+1095257 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 ioOe8b7TsJ
+1095233 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 iOplykVsBo
+1095067 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 ip23ESdwGT
+1094989 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 IygdcTaoYP
+1094966 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 iymCtoFUVf
+1094937 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 j3JsNAEsm1
+1095297 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 J3K5BY52dp
+1095287 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 J5feTUwPso
+1095218 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 jahdjqT54b
+1095065 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 JArjmQWPVq
+1095033 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 JBDnoFKLcx
+1095017 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 JbMcWq9tku
+1094959 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 Jc0EEC4sua
+1094932 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 JgVwSWAUsr
+1095183 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 JlhNaDm4f7
+1095194 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 JnOT2WHKbE
+1094993 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 jpO4wGMT57
+1095267 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 JqAekDHYif
+1094971 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 jrMKucOmtp
+1095223 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 jVBkVAbTHj
+1094915 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 jVGv0HeZvG
+1094938 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 jvyPQ8Z8ht
+1095195 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 JYdPDFpOIe
+1094958 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 k2yYJNQcLu
+1094972 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 K56S3V4AQ6
+1095201 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 K9kyHBbw7y
+1095002 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 Kfce3CFjhh
+1095270 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 KJBdbwTmzD
+1094951 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 kkIu8kVXLo
+1095202 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 kOIOppD8hx
+1095050 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 kp1ujuDGKO
+1095242 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 krWRFtvYDP
+1095186 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 kT3eEAfVcY
+1094939 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 kwmQK5z76U
+1094942 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 L5DOn3iY18
+1095199 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 L8ZzpZTLz5
+1095275 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 LeUtklcfmE
+1095247 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 LKfMizQQjE
+1095210 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 lowIuX2RQI
+1095293 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 LtH4X99Uw3
+1094916 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 LZ5jebusoa
+1095252 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 M1vV6QxnH1
+1094964 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 m59pSiQG2p
+1095070 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 m7lRDpRTUJ
+1095228 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 MaqkHpS39h
+1095278 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 MKQErXMkPE
+1094930 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 moQuVgMB1f
+1094913 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 mRET49bBGR
+1095208 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 mu6c42Y1qo
+1095266 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 mwILTjPhCP
+1095243 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 mxG418at98
+1095284 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 mydABLXwyL
+1095053 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 n4d9SlSzcV
+1095041 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 n4MCXv5XM2
+1094904 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 N5lXyVotHN
+1095268 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 nBoQgGxoGX
+1094924 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 NdkrRTZmr9
+1095016 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 NHag0dTW3U
+1094935 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 nlgqxKuRC3
+1094983 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 NLM96g2hH3
+1095262 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 Nmuh6DvLkc
+1095004 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 nR711EHtmU
+1095001 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 nSC9OkT1E3
+1095282 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 nwt49CVPtC
+1095063 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 O009zeKkif
+1095032 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 O0V7mQCicJ
+1094919 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 o6Q2i1NUXc
+1095025 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 OAbH1oFg57
+1095188 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 OaRp7TV8pe
+1094933 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 ObIefWWqqM
+1094909 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 OFx3U24MoP
+1094905 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 OHWTswrtBk
+1094923 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 ojc7SuLzMV
+1095059 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 orzpz7CBBQ
+1094957 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 Ou1q6zOh5n
+1095021 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 oV3aef60WL
+1095213 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 OXZ3OOGJ7O
+1095254 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 oZ5HOQe6X0
+1095045 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 p194n4sSpi
+1095026 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 p3ARvi0q4F
+1094926 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 p6PVEBfSyK
+1095047 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 PaOzJn0sJV
+1095008 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 PDJdFxfgvh
+1095003 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 penDnjNMQc
+1095058 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 pH9s3o8foP
+1095189 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 pI49N7Zoxn
+1095051 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 Pmf5TqkkYg
+1095010 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 pO4Lt5DPrX
+1094948 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 psmL4dk69Y
+1095283 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 pXXxEWcKkz
+1094931 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 q4gh4nODZa
+1094979 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 qFO0JDSF0N
+1094946 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 Qh9GBAd3mF
+1095277 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 QM053Y9Vw1
+1095019 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 R0LpA1qK4F
+1095240 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 R6okint5JZ
+1095038 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 R82WkcyQAx
+1095036 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 rcEkx0b0WC
+1094949 -rw-r--r-- 1 mazenx_ mazenx_   75 Aug  9 13:35 README.txt
+1094965 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 rgNTkxVkxN
+1095209 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 RnL5L0QLbY
+1095215 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 RPZAvV75tm
+1095204 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 RU4rJzjPfg
+1095224 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 RWWLnFwGtv
+1095258 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 rwZwqdxHhJ
+1095276 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 rzSTDqa7oV
+1095220 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 SaaZymLdoG
+1094953 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 SaQtx8SNld
+1094977 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 sf7ajd5INC
+1095182 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 skVRxkHK04
+1095181 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 sNrtW0eiZF
+1094941 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 SqAZPx7CbA
+1095022 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 SRgPbWeEG6
+1095061 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 sRhTcN4PIw
+1094978 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 sVyNLUXzut
+1095197 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 T0gYx5T5ks
+1095289 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 Tbi1MdwiMX
+1095039 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 tEgA7tGwxB
+1094967 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 TezFlyJz9o
+1095274 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 TFkiwAHDrG
+1095005 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 Tt0xmDrg4Y
+1095020 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 tZCE2HQg8s
+1095054 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 uAw4PKT7E0
+1095221 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 udqz57oeuX
+1094963 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 ufdeX2Dk7C
+1095000 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 v2ME2J4GuF
+1095031 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 V64A9vKnYq
+1095312 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 vkaOISlk2I
+1094950 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 vLWtq7N2aR
+1095205 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 VneCQhwmfv
+1095269 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 vUbRKbYlKR
+1094980 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 Vw5Jm3saUP
+1094918 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 vz1uLzTKjO
+1095256 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 VZw2jtUdZD
+1094936 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 W6AdwbmalK
+1094944 -rw-r--r-- 1 mazenx_ mazenx_   34 Aug  9 13:35 WfUKyzFeEv
+1094974 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 WFyKhZdOcx
+1095040 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 wgibrPHhJq
+1095239 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 WhTtCYas3M
+1095259 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 wJC19bchr2
+1095307 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 WLuasYnMvP
+1095253 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 Wm14GdEGcm
+1095232 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 wpJyCPLODS
+1094956 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 wpoGQ7WmSg
+1095030 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 WSxUR7IJd8
+1095069 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 wZ4LJKpHW6
+1095241 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 x2CDPgz6Jk
+1094961 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 x3Nvoy3Ucl
+1095248 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 x3SkxfEItU
+1095288 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 X62Vq1yIyL
+1094928 lrwxrwxrwx 1 mazenx_ mazenx_   10 Aug  9 13:35 X6lkChFKsj -> WfUKyzFeEv
+1094992 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 XapfbudtZp
+1094994 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 xBsGYZHomA
+1095272 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 xigSiLU79u
+1094906 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 XkrAGaosYZ
+1095285 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 xRxKkdCTU8
+1095265 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 xYCpOSRLsl
+1094912 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 xYlmccmE5f
+1094947 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 Y0nB0Ep1my
+1095303 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 y1IAp2YdZc
+1095264 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 Ye8R8ZOvJ9
+1095299 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 ygasPrK3kG
+1095249 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 YgeyHmPrtP
+1095057 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 ysdoXYcYQq
+1095292 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 YVAPjrh8Up
+1095060 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 zEmK04yIqc
+1095230 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 ZenzUsQydR
+1094990 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 zet1AFeHNl
+1095006 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 zghxQE4JGJ
+1095310 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 ZNq1fiVP6F
+1095295 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 zTfi6AwgZQ
+1095271 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 zxmnKldpmY
+1095046 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 zzgiKI2xSS
+1095042 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 zZU6ymQky6
