@@ -30,8 +30,12 @@ step5
 cat
 ls -li
 -------------------------------------
-
-
+step6
+find -size 73c
+cat m7URDORTU
+cd m7IRDPRTUS
+cat xVNVVOKINS
+-----------------
 ──(mazenx_㉿kali)-[~]
 └─$ pwd
 /home/mazenx_
@@ -425,3 +429,17 @@ total 804
 1095271 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 zxmnKldpmY
 1095046 drwxr-xr-x 2 mazenx_ mazenx_ 4096 Aug  9 13:35 zzgiKI2xSS
 1095042 -rw-r--r-- 1 mazenx_ mazenx_    0 Aug  9 13:35 zZU6ymQky6
+-(mazenx S kali)-[~]
+-$ ed Downloads/. level-1/level-2/gBT5UOULT5/level-3
+-(mazenx. 6 kali) -[~/-/.level-1/1evel-2/gBT5u@vLT5/level-3]
+-s find -size 73c
+•/m7 iROpRTUJ/×VNUVOKNW5
+-(mazen S kali)-[~/-/.level-1/level-2/gBTSu@vLT5/level-3]
+§ cat m7URDORTU
+cat: m7RDpRTUJ: Is a directory
+-(mazen Skati)-[~/-/.Level-1/1evel-2/gBT5u@VLT5/Level-3]
+- cd m7IRDPRTUS
+[ (waz (G kei)-[-/-/evel-2/geTsuevL T5/Level-3/m7URDpRTUs ]
+- cat xVNVVOKINS
+Congrats !! You have finished the Task Successfully, you can rest now :D.
+(надетя_ G1515)-[~/_/evel-2/gBT5u@VLTS/level-3/m7LRDpRTUJI I
