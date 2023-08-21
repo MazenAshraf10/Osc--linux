@@ -1,1 +1,114 @@
+┌──(mazenx_㉿kali)-[~]
+└─$ sudo useradd osc 
+useradd: user 'osc' already exists
+                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ sudo password osc
+sudo: password: command not found
+                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ sudo passwd osc  
+New password: 
+Retype new password: 
+passwd: password updated successfully
+                                                                                                                                                 
+┌──(mazenx_㉿kali)-[~]
+└─$ sudo groupadd osc_group
+                                                                                                                                                 
+┌──(mazenx_㉿kali)-[~]
+└─$ sudo groupadd osc_group4
+                                                                                                                                                 
+┌──(mazenx_㉿kali)-[~]
+└─$ sudo usermod -aG osc_group4 osc
+                                                                                                                                                 
+┌──(mazenx_㉿kali)-[~]
+└─$ sudo usermod -aG sudo osc      
+                                                                                                                                                 
+┌──(mazenx_㉿kali)-[~]
+└─$ sudo su osc              
+$ sudo -s
+[sudo] password for osc: 
+Sorry, try again.
+[sudo] password for osc: 
+Sorry, try again.
+[sudo] password for osc: 
+# sudo mkdir permission_practice
+# cd permission_practice
+# touch public_file.txt
+# touch private_file4.txt
+# touch executable_file4.sh
+# chmod 666 public_file4.txt
+chmod: cannot access 'public_file4.txt': No such file or directory
+# chmod 666 public_file.txt
+# chmod 600 privte_file4.txt
+chmod: cannot access 'privte_file4.txt': No such file or directory
+# chmod 600 private_file4.txt
+# chmod 650 executable_file4.sh
+# sudo chown mazen prviate_file4.txt
+chown: invalid user: ‘mazen’
+# sudo chown mazenx_ prviate_file4.txt
+chown: cannot access 'prviate_file4.txt': No such file or directory
+# sudo chown mazenx_ prviate_file4.txt
+chown: cannot access 'prviate_file4.txt': No such file or directory
+# chmod 750 executable_file4.txt
+chmod: cannot access 'executable_file4.txt': No such file or directory
+# chmod 750 executable_file4.sh
+# sudo chown mazenx_ prviate_file4.txt
+chown: cannot access 'prviate_file4.txt': No such file or directory
+# sudo chown mazenx_ private_file4.sh
+chown: cannot access 'private_file4.sh': No such file or directory
+# sudo chown mazenx_ private_file4.txt
+# sudo chgrp  osc_group4
+chgrp: missing operand after ‘osc_group4’
+Try 'chgrp --help' for more information.
+# sudo chgrp osc_group4 private_file4.txt
+# ls -l
+total 0
+-rwxr-x--- 1 root    root       0 Aug 21 16:21 executable_file4.sh
+-rw------- 1 mazenx_ osc_group4 0 Aug 21 16:20 private_file4.txt
+-rw-rw-rw- 1 root    root       0 Aug 21 16:19 public_file.txt
+# sudo su mazenx_
+┌──(mazenx_㉿kali)-[~/permission_practice]
+└─$ ls -l
+total 0
+-rwxr-x--- 1 root    root       0 Aug 21 16:21 executable_file4.sh
+-rw------- 1 mazenx_ osc_group4 0 Aug 21 16:20 private_file4.txt
+-rw-rw-rw- 1 root    root       0 Aug 21 16:19 public_file.txt
+                                                                                                                                                 
+┌──(mazenx_㉿kali)-[~/permission_practice]
+└─$ sleep 1000 &
+[1] 95128
+                                                                                                                                                 
+┌──(mazenx_㉿kali)-[~/permission_practice]
+└─$ kill 95128
+                                                                                                                                                 
+[1]  + terminated  sleep 1000
+┌──(mazenx_㉿kali)-[~/permission_practice]
+└─$ vim
 
+zsh: suspended  vim
+                                                                                                                                                 
+┌──(mazenx_㉿kali)-[~/permission_practice]
+└─$ kill -KILL %1
+                                                                                                                                                 
+[1]  + killed     vim
+┌──(mazenx_㉿kali)-[~/permission_practice]
+└─$ ps -a                 
+    PID TTY          TIME CMD
+  75205 pts/0    00:00:00 sudo
+  83376 pts/1    00:00:00 sudo
+  83378 pts/2    00:00:00 su
+  83379 pts/2    00:00:00 sh
+  83629 pts/2    00:00:00 sudo
+  84083 pts/3    00:00:00 sh
+  94884 pts/3    00:00:00 sudo
+  94886 pts/4    00:00:00 su
+  94887 pts/4    00:00:00 zsh
+  98583 pts/4    00:00:00 ps
+                                                                                                                                                 
+┌──(mazenx_㉿kali)-[~/permission_practice]
+└─$ sudo apt-get install neofetch
+
+                                                                                                                                                 
+┌──(mazenx_㉿kali)-[~/permission_practice]
+└─$ sudo apt-get remove neofetch 
