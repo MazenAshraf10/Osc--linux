@@ -1,1 +1,138 @@
+──(mazenx_㉿kali)-[~]
+└─$ touch file1.txt
+                                                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ touch file_check.sh
+                                                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ touch_file.sh      
+touch_file.sh: command not found
+                                                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ touch rename_file.sh
+                                                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ touch system_info.sh
+                                                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ ./system_info.sh
+zsh: permission denied: ./system_info.sh
+                                                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ chmod +x system_info.sh
+                                                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ chmod +x file_check.sh 
+                                                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ chmod +x rename_file.sh
+                                                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ chmod +x calculator.sh 
+chmod: cannot access 'calculator.sh': No such file or directory
+                                                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ chmod +x calculator.sh
+chmod: cannot access 'calculator.sh': No such file or directory
+                                                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ touch calculator.sh   
+                                                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ chmod +x calculator.sh
+                                                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ ./system_info.sh
+                                                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ nano system_info.sh
+                                                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ ./system_info.sh
+Username: mazenx_
+Kernel Version: 6.1.0-kali9-amd64
+                                                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ nano file_check.sh 
+                                                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ ./file_check.sh file2.txt /home/mazen_x
+File does nor exist
+                                                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ ./file_check.sh file1.txt /home/mazen_x
+File does nor exist
+                                                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ nano rename_file.sh
+                                                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ touch lion.png tiger.png flamingo.png session1.pdf mazenx_.jpg
+                                                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ ls   
+calculator.sh  Documents  file1.txt      flamingo.png  mazenx_.jpg  permission_practice  Public          session1.pdf    Templates   testuser  tiger.png
+Desktop        Downloads  file_check.sh  lion.png      Music        Pictures             rename_file.sh  system_info.sh  testfolder  testUser  Videos
+                                                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ ./rename_file.sh mazenx_ png           
+mv: cannot stat '*.mazenx_': No such file or directory
+                                                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ nano rename_file.sh
+                                                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ ./rename_file.sh png mazenx_
+                                                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ ls
+calculator.sh  Documents  file1.txt      mazenx_1.png  mazenx_3.png  Music                Pictures  rename_file.sh  system_info.sh  testfolder  testUser
+Desktop        Downloads  file_check.sh  mazenx_2.png  mazenx_.jpg   permission_practice  Public    session1.pdf    Templates       testuser    Videos
+                                                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ nano rename_file.sh
+                                                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ touch lion.png tiger.png flamingo.png                         
+                                                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ ls
+calculator.sh  Downloads      flamingo.png  mazenx_2.png  Music                Public          system_info.sh  testuser   Videos
+Desktop        file1.txt      lion.png      mazenx_3.png  permission_practice  rename_file.sh  Templates       testUser
+Documents      file_check.sh  mazenx_1.png  mazenx_.jpg   Pictures             session1.pdf    testfolder      tiger.png
+                                                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ ./rename_file.sh png mazenx_
+                                                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ ls
+calculator.sh  Documents  file1.txt      mazenx_4.png  mazenx_6.png  Music                Pictures  rename_file.sh  system_info.sh  testfolder  testUser
+Desktop        Downloads  file_check.sh  mazenx_5.png  mazenx_.jpg   permission_practice  Public    session1.pdf    Templates       testuser    Videos
+                                                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ nano calculator.sh 
+                                                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ nano file1.txt    
+                                                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ nano rename_file.sh
+                                                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ nano calculator.sh 
+                                                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ nano system_info.sh
+                                                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ nano calculator.sh 
+                                                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ nano system_info.sh
+                                                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ nano file_check.sh 
+                                                                                                                                                             
+┌──(mazenx_㉿kali)-[~]
+└─$ 
 
