@@ -134,5 +134,103 @@ Desktop        Downloads  file_check.sh  mazenx_5.png  mazenx_.jpg   permission_
 └─$ nano file_check.sh 
                                                                                                                                                              
 ┌──(mazenx_㉿kali)-[~]
-└─$ 
+└─$ ./calculator.sh             
+1. Addition
+2. Subtraction
+3. Multiplication
+5. Exit
+Enter your choice: 1
+Enter the first number: 2
+Enter the second number: 3
+2 + 3=5
+-------------------------------
+nano system=
+#!/bin/bash
+echo "Username: $(whoami)"
+echo "Kernel Version: $(uname -r)"
+-------
+nano check=
+#!/bin/bash
+filename="$1"
+directory="$2"
+
+if [ -e "$directory/$filename" ];then
+echo "File exists"
+echo "contents of $filename:"
+cat "$directory/$filename"
+
+else
+
+echo "File does nor exist"
+
+fi
+
+--------
+nano rename=
+#!/bin/bash
+
+extension="$1"
+new_name="$2"
+
+count=1
+
+for file in *."$extension";do
+new_filename="$new_name$count.$extension"
+mv "$file" "$new_filename"
+count=$((count+1))
+done
+------
+nano calc=
+#!/bin/bash
+
+echo "1. Addition"
+echo "2. Subtraction"
+echo "3. Multiplication"
+echo "5. Exit"
+while true; do
+read -p "Enter your choice: " choice
+
+ case $choice in
+
+1)
+read -p "Enter the first number: " num1
+read -p "Enter the second number: " num2
+result=$((num1+num2))
+echo "$num1 + $num2=$result"
+
+;;
+2)
+read -p "Enter the first number: " num1
+read -p "Enter the second number: " num2
+result=$((num1 - num2))
+echo "$num1 - $num2 =$result"
+
+;;
+3)
+read -p "Enter the first number: " num1
+read -p "Enter the second number: " num2
+result=$((num1 * num2))
+echo "$num1 * $num2 =$result"
+
+;;
+4)
+read -p "Enter the first number: " num1
+read -p "Enter the second number: " num2
+result=$(bc -1 <<<"$num1 / $num2")
+echo "$num1 / $num2 =$result"
+
+;;
+5)
+echo "Exiting..."
+exit 0
+
+;;
+*)
+echo "Invalid choice. please enter a valid option."
+
+;;
+esac
+done
+
+
 
